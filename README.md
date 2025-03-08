@@ -1,8 +1,8 @@
-# TikTok Filigranlı Video İndirme Aracı
+# TikTok Filigransız Video İndirme Aracı
 
 ![TikTok Downloader](/screenshots/preview.png)
 
-Bu proje, TikTok videolarını filigranlı olarak indirmek için modern bir web aracıdır. Kullanıcı dostu arayüzü ve gelişmiş özellikleriyle TikTok videolarını hızlı ve kolay bir şekilde indirmenizi sağlar.
+Bu proje, TikTok videolarını filigransız olarak indirmek için modern bir web aracıdır. Kullanıcı dostu arayüzü ve gelişmiş özellikleriyle TikTok videolarını hızlı ve kolay bir şekilde indirmenizi sağlar.
 
 ## ✨ Özellikler
 
@@ -11,7 +11,7 @@ Bu proje, TikTok videolarını filigranlı olarak indirmek için modern bir web 
 - 🎨 **Karanlık/Aydınlık Tema**: Kullanıcı tercihine göre değişen tema seçeneği
 - 📱 **Tam Responsive**: Mobil, tablet ve masaüstü uyumlu tasarım
 - 🔄 **Alternatif API**: Ana API çalışmadığında otomatik olarak alternatif API'ye geçiş
-- 👁️ **Filigranlı İndirme**: Filigranlı ve filigramsız indirme seçenekleri
+- 👁️ **Filigransız İndirme**: Filigranlı ve filigramsız indirme seçenekleri
 - 📊 **Video İstatistikleri**: Beğeni, yorum ve paylaşım sayıları gösterimi
 
 ## 🛠️ Teknolojiler
