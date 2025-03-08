@@ -112,3 +112,9 @@ Sorularınız veya önerileriniz için:
 
 - GitHub Issues: [Yeni bir issue oluşturun](https://github.com/ByNoSoftware/tiktok-downloader/issues/new)
 - R10.net: [bnsware](https://www.r10.net/profil/154778-bnsware.html)
+
+![TikTok Downloader](/screenshots/preview.png)
+
+![TikTok Downloader](https://cdn.r10.net/editor/154778/3772463576.png)
+
+![TikTok Downloader](https://cdn.r10.net/editor/154778/2155786382.png)
