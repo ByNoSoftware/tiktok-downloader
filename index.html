@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Filigranlı Video İndirme Aracı</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fab fa-tiktok"></i>
+                <h1>TikTok İndirici</h1>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+        </header>
+
+        <main>
+            <div class="intro">
+                <h2>TikTok Videolarını Filigranlı İndirin</h2>
+                <p>Video URL'sini yapıştırın ve anında indirmeye başlayın!</p>
+            </div>
+
+            <div class="downloader-box">
+                <form id="download-form" action="process.php" method="POST">
+                    <div class="input-group">
+                        <input type="url" id="video-url" name="video-url" placeholder="TikTok video URL'sini buraya yapıştırın" required>
+                        <button type="submit" id="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="options">
+                        <h3>Özelleştirme Seçenekleri</h3>
+                        <div class="option-group">
+                            <div class="option">
+                                <input type="checkbox" id="no-watermark" name="no-watermark" checked>
+                                <label for="no-watermark">Filigranlı İndir</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="hd-quality" name="hd-quality" checked>
+                                <label for="hd-quality">HD Kalite</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="result" id="result-box" style="display: none;">
+                <div class="video-info">
+                    <div class="video-preview">
+                        <img id="video-thumbnail" src="" alt="Video önizleme">
+                        <div class="video-details">
+                            <h3 id="video-title"></h3>
+                            <p id="video-author"></p>
+                        </div>
+                    </div>
+                    <div class="video-stats">
+                        <div class="stat">
+                            <i class="fas fa-heart"></i>
+                            <span id="like-count">0</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-comment"></i>
+                            <span id="comment-count">0</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-share"></i>
+                            <span id="share-count">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-options">
+                    <a href="#" id="download-video" class="download-btn">
+                        <i class="fas fa-download"></i> Video İndir
+                    </a>
+                    <a href="#" id="download-audio" class="download-btn audio">
+                        <i class="fas fa-music"></i> Ses İndir
+                    </a>
+                </div>
+            </div>
+
+            <div class="loader" id="loader" style="display: none;">
+                <div class="spinner"></div>
+                <p>Video bilgileri alınıyor...</p>
+            </div>
+
+            <div class="error-message" id="error-message" style="display: none;">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>Bir hata oluştu. Lütfen geçerli bir TikTok URL'si girdiğinizden emin olun.</p>
+            </div>
+        </main>
+
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-bolt"></i>
+                <h3>Hızlı İndirme</h3>
+                <p>Saniyeler içinde videolarınızı indirin</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Güvenli</h3>
+                <p>Hesap bilgisi gerektirmez</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobil Uyumlu</h3>
+                <p>Tüm cihazlardan kullanabilirsiniz</p>
+            </div>
+        </div>
+
+        <div class="how-to">
+            <h2>Nasıl Kullanılır?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>TikTok Uygulamasını Açın</h3>
+                        <p>İndirmek istediğiniz videoyu bulun</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Paylaş Butonuna Tıklayın</h3>
+                        <p>"Bağlantıyı Kopyala" seçeneğini seçin</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>URL'yi Yapıştırın</h3>
+                        <p>Kopyaladığınız URL'yi yukarıdaki kutuya yapıştırın</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>İndirin</h3>
+                        <p>İndir butonuna tıklayarak videoyu kaydedin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 TikTok Filigranlı Video İndirici | Tüm Hakları Saklıdır</p>
+            <div class="footer-links">
+                <a href="#">Gizlilik Politikası</a>
+                <a href="#">Kullanım Şartları</a>
+                <a href="#">İletişim</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
