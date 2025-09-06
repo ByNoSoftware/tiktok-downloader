@@ -103,6 +103,7 @@ Bazı videolar indirilemiyorsa:
 
 ## 📄 Lisans
 ![License](https://rozet.vixware.net/License/Creative%20Commons%20Attribution-NonCommercial%204.0%20International%20License%20(CC%20BY-NC%204.0)/purple?style=premium)
+
 Bu proje Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ## 🙏 Teşekkürler
