@@ -18,7 +18,7 @@ Bu proje, TikTok videolarını filigransız olarak indirmek için modern bir web
 
 ![Frontend](https://rozet.vixware.net/Frontend/HTML%2C%20CSS%2C%20JavaScript/orange?style=premium)
 ![Backend](https://rozet.vixware.net/Backend/PHP/blue?style=premium)
-![ API ](https://rozet.vixware.net/%20API%20/%20RapidAPI%20TIKTOK%20/yellow?style=premium)
+![API](https://rozet.vixware.net/%20API%20/%20RapidAPI%20TIKTOK%20/yellow?style=premium)
 
 ## 📋 Gereksinimler
 
