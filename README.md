@@ -22,9 +22,11 @@ Bu proje, TikTok videolarını filigransız olarak indirmek için modern bir web
 
 ## 📋 Gereksinimler
 
-- PHP 7.2 veya üzeri
-- cURL desteği
-- HTTPS protokolü (API gereksinimleri için)
+![PHP](https://rozet.vixware.net/PHP/7.2%2B/teal?style=premium)
+
+![Destek](https://rozet.vixware.net/Destek/cURL%20/teal?style=premium)
+
+![HTTPS protokolu](https://rozet.vixware.net/HTTPS%20protokolu/Zorunlu/teal?style=premium)
 
 ## ⚙️ Kurulum
 
